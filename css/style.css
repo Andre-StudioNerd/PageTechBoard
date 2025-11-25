@@ -125,7 +125,7 @@ h1 {
 }
 
 h1 span {
-  color: #9747ff;
+  color: #0d5a4a;
 }
 
 p {
@@ -153,14 +153,14 @@ a {
   font-size: 22px;
   padding: 18px 48px;
   text-decoration: none;
-  background-color: #9747ff;
+  background-color: #0d5a4a;
   border-radius: 36px;
   transition: transform 0.2s ease, background-color 0.2s ease;
   font-weight: 500;
 }
 
 a:hover {
-  background-color: #8233e8;
+  background-color: #41ae98;
   transform: scale(1.05);
 }
 
