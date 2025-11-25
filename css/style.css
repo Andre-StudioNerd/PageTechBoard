@@ -1,0 +1,211 @@
+/* Reset CSS de Eric Meyer - versão reduzida */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* ---------------------- */
+/* ESTILOS GERAIS         */
+/* ---------------------- */
+body {
+  background-color: #0e1014;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+header img {
+  display: block;
+  margin: 40px auto;
+  width: 180px;
+}
+
+/* ---------------------- */
+/* SECTION LAYOUT - Melhoria */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 28px;
+  padding: 20px;
+}
+
+/* ---------------------- */
+/* TIPOGRAFIA */
+/* ---------------------- */
+h1 {
+  font-size: 64px;
+  font-family: "Unbounded", sans-serif;
+  line-height: 1.1;
+  max-width: 700px;
+}
+
+h1 span {
+  color: #9747ff;
+}
+
+p {
+  font-size: 24px;
+  max-width: 750px;
+  margin-top: 12px;
+  opacity: 0.9;
+}
+
+/* ---------------------- */
+/* IMAGEM RESPONSIVA */
+/* ---------------------- */
+section img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+}
+
+/* ---------------------- */
+/* BOTÃO MELHORADO */
+/* ---------------------- */
+a {
+  color: #ffffff;
+  font-size: 22px;
+  padding: 18px 48px;
+  text-decoration: none;
+  background-color: #9747ff;
+  border-radius: 36px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  font-weight: 500;
+}
+
+a:hover {
+  background-color: #8233e8;
+  transform: scale(1.05);
+}
+
+main {
+  margin-bottom: 100px;
+}
+
+.buttom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* ---------------------- */
+/* RESPONSIVIDADE */
+/* ---------------------- */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  header img {
+    margin-top: 50px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  section img {
+    max-width: 300px;
+  }
+
+  a {
+    width: 100%;
+    max-width: 300px;
+  }
+}
