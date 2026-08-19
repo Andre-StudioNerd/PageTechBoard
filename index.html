@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Unbounded:wght@200..900&display=swap"
       rel="stylesheet"
     />
-    <title>TechBoard</title>
+    <title>TechBoard - Diagnóstico do Sistema</title>
   </head>
   <body>
     <header>
@@ -20,25 +20,95 @@
     <main>
       <section>
         <h1>
-          <span>Fique de olho</span><br />
+          <span>Fique de olho</span>
+          <br />
           no que importa
         </h1>
 
-        <p>
-          A internet das coisas (ioT) dá vida a sua casa com automação
-          residencial. Através do smartphone ou tablet você fica conectado a sua
-          casa ou escritório.
-        </p>
+        <!-- Painel de Diagnóstico Técnico -->
+        <div class="painel-tecnico">
+          <h2 class="title">Diagnóstico do Dispositivo</h2>
+
+          <div class="grid-diagnostico">
+            <p>
+              IP Público:
+              <span id="info-ip">Carregando...</span>
+            </p>
+            <p>
+              <strong>Localização:</strong>
+              <span id="info-local">Carregando...</span>
+            </p>
+            <p>
+              <strong>Provedor:</strong>
+              <span id="info-provedor">Carregando...</span>
+            </p>
+
+            <p>
+              <strong>Status de Conexão:</strong>
+              <span id="info-status">Carregando...</span>
+            </p>
+            <p>
+              <strong>Tipo de Rede:</strong>
+              <span id="info-tipo-rede">Carregando...</span>
+            </p>
+            <p>
+              <strong>Velocidade Estimada:</strong>
+              <span id="info-velocidade">Carregando...</span>
+            </p>
+
+            <p>
+              <strong>Processador (CPU):</strong>
+              <span id="info-cpu">Carregando...</span>
+            </p>
+            <p>
+              <strong>Memória RAM:</strong>
+              <span id="info-ram">Carregando...</span>
+            </p>
+            <p>
+              <strong>Placa de Vídeo (GPU):</strong>
+              <span id="info-gpu">Carregando...</span>
+            </p>
+
+            <p>
+              <strong>Bateria:</strong>
+              <span id="info-bateria">Carregando...</span>
+            </p>
+            <p>
+              <strong>Resolução da Tela:</strong>
+              <span id="info-tela">Carregando...</span>
+            </p>
+            <p>
+              <strong>Sistema Operacional:</strong>
+              <span id="info-so">Carregando...</span>
+            </p>
+            <p>
+              <strong>Idioma:</strong>
+              <span id="info-idioma">Carregando...</span>
+            </p>
+          </div>
+        </div>
+
         <img
           src="img/celulares.png"
           alt="Dois celulares pretos sobrepostos, com uma sombra roxa sob eles."
         />
-        <div class="buttom">
-          <a href="https://www.techboard.com.br/" target="_blank"
-            >Visitar o site</a
-          >
-        </div>
       </section>
     </main>
+
+    <footer>
+      <p class="text_footer">
+        Desenvolvido por André |
+        <a
+          href="https://github.com/Andre-StudioNerd"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+      </p>
+    </footer>
+
+    <!-- Importação do arquivo JS -->
+    <script src="js/script.js"></script>
   </body>
 </html>

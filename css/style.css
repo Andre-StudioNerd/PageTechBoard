@@ -83,7 +83,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+
   font: inherit;
   vertical-align: baseline;
 }
@@ -113,7 +113,14 @@ section {
   gap: 28px;
   padding: 20px;
 }
-
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 28px;
+  padding: 20px;
+}
 /* ---------------------- */
 /* TIPOGRAFIA */
 /* ---------------------- */
@@ -153,14 +160,9 @@ a {
   font-size: 22px;
   padding: 18px 48px;
   text-decoration: none;
-  background-color: #0d5a4a;
-  border-radius: 36px;
-  transition: transform 0.2s ease, background-color 0.2s ease;
-  font-weight: 500;
 }
 
 a:hover {
-  background-color: #41ae98;
   transform: scale(1.05);
 }
 
@@ -208,4 +210,16 @@ main {
     width: 100%;
     max-width: 300px;
   }
+}
+
+.title {
+  font-size: 35px;
+}
+
+.grid-diagnostico p {
+  text-align: left;
+}
+
+.text_footer {
+  font-size: 20px;
 }
