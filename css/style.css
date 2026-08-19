@@ -92,8 +92,13 @@ video {
 /* ESTILOS GERAIS         */
 /* ---------------------- */
 body {
-  background-color: #0e1014;
-  color: #ffffff;
+  background: #0f0f0f;
+  background: linear-gradient(
+    176deg,
+    rgba(15, 15, 15, 1) 0%,
+    rgba(61, 61, 59, 1) 99%
+  );
+  color: #e4e7eb;
   font-family: "Poppins", sans-serif;
 }
 
@@ -125,7 +130,7 @@ footer {
 /* TIPOGRAFIA */
 /* ---------------------- */
 h1 {
-  font-size: 64px;
+  font-size: 40px;
   font-family: "Unbounded", sans-serif;
   line-height: 1.1;
   max-width: 700px;
@@ -156,9 +161,8 @@ section img {
 /* BOTÃO MELHORADO */
 /* ---------------------- */
 a {
-  color: #ffffff;
+  color: aquamarine;
   font-size: 22px;
-  padding: 18px 48px;
   text-decoration: none;
 }
 
@@ -213,13 +217,31 @@ main {
 }
 
 .title {
-  font-size: 35px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
 .grid-diagnostico p {
   text-align: left;
+  font-size: 20px;
 }
 
 .text_footer {
-  font-size: 20px;
+  font-size: 15px;
+}
+
+.text_footer a {
+  font-size: 15px;
+}
+
+.painel-tecnico {
+  background: #e4e7eb;
+  background: linear-gradient(
+    176deg,
+    rgba(228, 231, 235, 1) 16%,
+    rgba(160, 168, 176, 1) 99%
+  );
+  color: #0e1014;
+  padding: 30px;
 }
