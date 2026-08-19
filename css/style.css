@@ -155,13 +155,14 @@ section img {
   max-width: 600px;
   height: auto;
   display: block;
+  text-align: center;
 }
 
 /* ---------------------- */
 /* BOTÃO MELHORADO */
 /* ---------------------- */
 a {
-  color: aquamarine;
+  color: #2fb3c0;
   font-size: 22px;
   text-decoration: none;
 }
@@ -244,4 +245,30 @@ main {
   );
   color: #0e1014;
   padding: 30px;
+}
+
+/* Estilo base para a imagem */
+.imagem-profunda {
+  width: 100%;
+  max-width: 400px; /* Largura máxima para exemplo */
+  border-radius: 12px; /* Bordas arredondadas suaves */
+  display: block;
+  margin: 20px auto;
+
+  /* --- O EFEITO DE PROFUNDIDADE ESTÁTICA --- */
+  /* Sintaxe: box-shadow: x y blur spread color; */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* Sombra suave para baixo e para o lado */
+
+  /* Transição suave para o efeito de hover */
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* --- O EFEITO DE PROFUNDIDADE AO PASSAR O MOUSE (HOVER) --- */
+.imagem-profunda:hover {
+  /* Levanta a imagem em 10px */
+  transform: translateY(-10px);
+  /* Aumenta a sombra para simular mais altura */
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
 }
